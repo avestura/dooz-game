@@ -1,0 +1,31 @@
+﻿Build started 12/24/2015 1:33:28 AM.
+     1>Project "E:\Project\C++\doozGame\doozGame\doozGame.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib frmGamePad.cpp frmMainMenu.cpp
+         frmGamePad.cpp
+     1>e:\project\c++\doozgame\doozgame\frmGamePad.h(622): warning C4101: 'ex': unreferenced local variable
+     1>e:\project\c++\doozgame\doozgame\frmGamePad.h(852): warning C4101: 'ex': unreferenced local variable
+     1>e:\project\c++\doozgame\doozgame\frmGamePad.h(881): warning C4101: 'ex': unreferenced local variable
+     1>e:\project\c++\doozgame\doozgame\frmGamePad.h(918): warning C4101: 'ex': unreferenced local variable
+     1>e:\project\c++\doozgame\doozgame\frmGamePad.h(932): warning C4101: 'ex': unreferenced local variable
+     1>e:\project\c++\doozgame\doozgame\frmGamePad.h(953): warning C4101: 'ex': unreferenced local variable
+         frmMainMenu.cpp
+     1>e:\project\c++\doozgame\doozgame\frmGamePad.h(622): warning C4101: 'ex': unreferenced local variable
+     1>e:\project\c++\doozgame\doozgame\frmGamePad.h(852): warning C4101: 'ex': unreferenced local variable
+     1>e:\project\c++\doozgame\doozgame\frmGamePad.h(881): warning C4101: 'ex': unreferenced local variable
+     1>e:\project\c++\doozgame\doozgame\frmGamePad.h(918): warning C4101: 'ex': unreferenced local variable
+     1>e:\project\c++\doozgame\doozgame\frmGamePad.h(932): warning C4101: 'ex': unreferenced local variable
+     1>e:\project\c++\doozgame\doozgame\frmGamePad.h(953): warning C4101: 'ex': unreferenced local variable
+     1>frmMainMenu.cpp(35): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Project\C++\doozGame\Debug\doozGame.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\doozGame.frmAbout.resources /ASSEMBLYRESOURCE:Debug\doozGame.frmGamePad.resources /ASSEMBLYRESOURCE:Debug\doozGame.frmMainMenu.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\Project\C++\doozGame\Debug\doozGame.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\frmAbout.obj
+         Debug\frmGamePad.obj
+         Debug\frmMainMenu.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         doozGame.vcxproj -> E:\Project\C++\doozGame\Debug\doozGame.exe
+     1>Done Building Project "E:\Project\C++\doozGame\doozGame\doozGame.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.66

@@ -1,0 +1,39 @@
+  doozGame.frmAbout.resources - Embedded, ContainedInManifestFile, 
+  doozGame.frmGamePad.resources - Embedded, ContainedInManifestFile, 
+  doozGame.frmMainMenu.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly doozGame, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class doozGame.frmAbout: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class doozGame.frmMainMenu: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class doozGame.frmGamePad: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.Form, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean retType : Public
+    System.Windows.Forms.Button computerButton : Public
+    System.Media.SoundPlayer mp : Public
+    Boolean isMultiplayer : Public, Static
+    Boolean player1Turn : Public, Static
+    SByte winner IsSignUnspecifiedByte : Public, Static
+    Boolean gameEnded : Public, Static
+    Int32 score1 : Public, Static
+    Int32 score1WithPc : Public, Static
+    Int32 score2 : Public, Static
+    Int32 scoreComputer : Public, Static
